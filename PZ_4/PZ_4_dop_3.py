@@ -2,7 +2,7 @@
 n = 2
 square = 0
 cube = 0
-while n <=5:
+while n <= 5:
     square = n ** 2
     cube = n ** 3
     print("Квадрат:", square, "Куб:", cube)
