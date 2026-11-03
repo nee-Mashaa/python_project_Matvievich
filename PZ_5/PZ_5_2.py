@@ -10,5 +10,18 @@ def count_square(A, B):
             count += B // A
             B %= A
     print(count)
-count_square(15, 6)
+a, b = input("Введите число"), input("Введите число")
+while type(a) != int:
+    try:
+        a = int(a)
+    except ValueError:
+        print("Число введено неправильно")
+        a = input("Введите число")
+while type(b) != int:
+    try:
+        b = int(b)
+    except ValueError:
+        print("Число введено неправильно")
+        b = input("Введите число")
+count_square(a, b)
 
