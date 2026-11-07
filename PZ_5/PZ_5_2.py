@@ -9,7 +9,7 @@ def count_square(A, B):
         else :
             count += B // A
             B %= A
-    print(count)
+    return count
 a, b = input("Введите число"), input("Введите число")
 while type(a) != int:
     try:
@@ -23,5 +23,5 @@ while type(b) != int:
     except ValueError:
         print("Число введено неправильно")
         b = input("Введите число")
-count_square(a, b)
+print(count_square(a, b))
 
