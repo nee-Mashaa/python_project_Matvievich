@@ -11,6 +11,6 @@ j = n - 1
 for i in range(j + 1):
     b.append(a[i])
     if i != j:
-        b.append(a[j])
+
         j -= 1
 print(b)
