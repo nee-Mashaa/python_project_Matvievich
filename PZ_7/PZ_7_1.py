@@ -6,5 +6,4 @@ count = 0
 for i in s:
     if ('a' <= i <= 'z') or ('а' <= i <= 'я') or i == 'ё':
         count += 1
-
 print("Строчных латинских и русских букв:", count)
